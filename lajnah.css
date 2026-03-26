@@ -101,9 +101,9 @@ body {
   display: inline-block;
   margin-top: 1rem;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color: #00122b;
   text-decoration: none;
   font-weight: bold;
+  font-variant: small-caps;
   padding: 0.65rem 1rem;
   border-radius: 0.5rem;
 }
@@ -166,6 +166,12 @@ body {
   border-left: 4px solid var(--accent);
   padding: 0.8rem;
   border-radius: 0.35rem;
+}
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
 .footer {
