@@ -71,11 +71,18 @@ body {
   text-decoration: none;
   margin-left: 1rem;
   font-size: 0.95rem;
+
+}
+.menu {
+  display: flex;
+  gap: auto;
+  flex: 1;
 }
 
 .hero-content {
   padding: 4rem 0 5rem;
   max-width: 650px;
+  justify-content: center;
 }
 
 .badge {
@@ -99,13 +106,13 @@ body {
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top:1rem;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
   text-decoration: none;
   font-weight: bold;
   font-variant: small-caps;
   padding: 0.65rem 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
 }
 
 .stars {
