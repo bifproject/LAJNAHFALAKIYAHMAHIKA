@@ -194,6 +194,7 @@ body {
 
 .dokumentasi-keterangan {
   margin-top: 0.5rem;
+  text-align:justify;
 }
 
 .highlight {
