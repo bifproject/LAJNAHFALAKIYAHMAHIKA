@@ -83,6 +83,10 @@ body {
   padding: 4rem 0 5rem;
   max-width: 650px;
   justify-content: center;
+  text-align:justify;
+}
+.hero-content h1 {
+  text-align:center;
 }
 
 .badge {
